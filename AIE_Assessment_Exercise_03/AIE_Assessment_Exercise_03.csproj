@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp3.1\AIE_Assessment_Exercise_03.AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\AIE_Assessment_Exercise_03.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\AIE_Assessment_Exercise_03.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\AIE_Assessment_Exercise_03.runtimeconfig.json" />
+    <Content Include="obj\AIE_Assessment_Exercise_03.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\netcoreapp3.1\AIE_Assessment_Exercise_03.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\AIE_Assessment_Exercise_03.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\AIE_Assessment_Exercise_03.exe" />
+    <None Include="bin\Debug\netcoreapp3.1\AIE_Assessment_Exercise_03.pdb" />
+    <None Include="obj\AIE_Assessment_Exercise_03.csproj.nuget.cache" />
+    <None Include="obj\AIE_Assessment_Exercise_03.csproj.nuget.g.props" />
+    <None Include="obj\AIE_Assessment_Exercise_03.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\netcoreapp3.1\AIE_Assessment_Exercise_03.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\AIE_Assessment_Exercise_03.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\AIE_Assessment_Exercise_03.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\AIE_Assessment_Exercise_03.dll" />
+    <None Include="obj\Debug\netcoreapp3.1\AIE_Assessment_Exercise_03.exe" />
+    <None Include="obj\Debug\netcoreapp3.1\AIE_Assessment_Exercise_03.pdb" />
+  </ItemGroup>
+
+</Project>
