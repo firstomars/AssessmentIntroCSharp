@@ -13,7 +13,7 @@ namespace AIE_Assessment_Exercise_06
         static void Main(string[] args)
         {
             //Deserialise words.txt and add to new list
-            List<string> words = new List<string>(DeserialiseWords("./words.txt"));
+            List<string> words = DeserialiseWords("./words.txt");
 
             //print current words list
             Console.WriteLine("READ INITIAL WORDS LIST");

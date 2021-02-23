@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AIE_Assessment_Exercise_08
 {
-    class PowerUp : GameObject
+    public class PowerUp : GameObject
     {
         public PowerUp()
         {
@@ -14,6 +14,11 @@ namespace AIE_Assessment_Exercise_08
         public PowerUp(int xPos, int yPos) : base(xPos, yPos)
         {
 
+        }
+
+        public override void Draw()
+        {
+            Console.Write("?");
         }
     }
 }

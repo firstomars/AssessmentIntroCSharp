@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace AIE_Assessment_Exercise_08
-{
-    class GameObject
+{   
+    public class GameObject
     {
-        public int xPosition;
-        public int yPosition;
+        protected int xPosition;
+        protected int yPosition;
 
         public GameObject()
         {

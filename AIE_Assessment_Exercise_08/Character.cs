@@ -4,11 +4,11 @@ using System.Text;
 
 namespace AIE_Assessment_Exercise_08
 {
-    class Character : GameObject
+    public class Character : GameObject
     {
-        public int attack;
-        public int health;
-        public int defence;
+        protected int attack;
+        protected int health;
+        protected int defence;
 
         public Character()
         {

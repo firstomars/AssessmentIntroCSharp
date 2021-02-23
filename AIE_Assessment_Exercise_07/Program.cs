@@ -23,15 +23,17 @@ namespace AIE_Assessment_Exercise_07
             // p2.SayGreeting(); // hello I'm Dr. Fred
             // p3.SayGreeting(); // hello I'm Dr. Ted
 
-            Person p1 = new Person("Bob", "04777777", "bob@bobbo.com");
-            Person p2 = new Doctor("Fred", "04888888", "fred@freddo.com");
-            Person p3 = new Doctor("Ted", "04999999", "ted@teddo.com");
+            Person p1 = new Person("Bob", "04777777", "bob@bobbo.com", "50,000");
+            Person p2 = new Doctor("Fred", "04888888", "fred@freddo.com", "120,000");
+            Person p3 = new Doctor("Ted", "04999999", "ted@teddo.com", "145,000");
+            Doctor p4 = new Doctor("Herb", "0439134648", "doc@doctor.com", "123,000");
 
-            p1.SayGreeting();
             p2.SayGreeting();
             p3.SayGreeting();
-
-            //Add doctor salary
+            p1.SayGreeting();
+            p4.DeliverPrognosis(p1);
+            p1.SalaryBoast();
+            p4.SalaryBoast();
         }
 
 

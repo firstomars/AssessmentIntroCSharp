@@ -6,7 +6,7 @@ using System;
 
 namespace AIE_Assessment_Exercise_08
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -23,9 +23,15 @@ namespace AIE_Assessment_Exercise_08
             Enemy e = new Enemy(10, 27, 6);
             PowerUp pu = new PowerUp();
 
-            //map[1, 1].AddGameObject(p);
-            //map[2, 0].AddGameObject(e);
-            //map[0, 1].AddGameObject(pu);
+            //instantiate three gameObjects
+
+            //The objects array in the Room class is always initialized as an array of 3 GameObjects.
+            //When the Room.AddGameObject() function is called, the input argument is inserted into the first index in the array containing a null value.
+
+
+            map[1, 1].AddGameObject(p);
+            map[2, 0].AddGameObject(e);
+            map[0, 1].AddGameObject(pu);
 
             for (int row = 0; row < 3; row++)
             {
@@ -36,7 +42,6 @@ namespace AIE_Assessment_Exercise_08
                 Console.WriteLine();
             }
             Console.ReadLine();
-            
         }
     }
 }

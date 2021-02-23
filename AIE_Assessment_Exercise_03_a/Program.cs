@@ -1,8 +1,4 @@
-﻿/*
- * Appendix1 - Exercise 3: FizzBuzz
- */
-
-using System;
+﻿using System;
 
 namespace AIE_Assessment_Exercise_03
 {
